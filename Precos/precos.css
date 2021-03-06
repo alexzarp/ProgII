@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#top-bar {
+    background-color: red;
+    text-decoration: none;
+    display: flex;
+}
+
+#top-bar a {
+    text-decoration: none; 
+    color: white;
+    font-size: 40px;
+}
+
+#top-bar ul li {
+    display: inline-block;
+}
+
+#tabela {
+    border: 10px;
+    background-color: gray;
+    padding: 7px;
+    margin: 50px;
+}
