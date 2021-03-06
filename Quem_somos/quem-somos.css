@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#top-bar {
+    background-color: red;
+    text-decoration: none;
+    display: flex;
+}
+
+#top-bar a {
+    text-decoration: none; 
+    color: white;
+    font-size: 40px;
+}
+
+#top-bar ul li {
+    display: inline-block;
+}
+
+.box {
+    background-color: gray;
+    margin: 2vh;
+}
+
+.box ol {
+    margin: 0 0 0 20px;
+}
