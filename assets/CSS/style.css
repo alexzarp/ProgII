@@ -10,14 +10,27 @@
     display: flex;
 }
 
+
 #top-bar a {
     text-decoration: none; 
     color: white;
     font-size: 40px;
+    text-align: center;
 }
 
 #top-bar ul li {
-    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#top-bar ul li:first-child {
+    align-items: initial;
 }
 
 #img-blur {
