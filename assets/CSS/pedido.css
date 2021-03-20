@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#pedido {
+    background-color: rgb(183, 160, 204);
+    width: 300px;
+    padding: 1cm;
+    margin: auto;
+    border: 3px solid rgb(32, 128, 184);
+    border-radius: 30px;
+}
+
+

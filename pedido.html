@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--O link para o projeto é https://alexzarp.github.io/ProgII/ -->
+<head>
+    <title>Entre em contato</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Alex Sandro Zarpelon">
+    <meta name="description" content="Trabalho em aula Programação II">
+    <meta name="keywords" content="HTML, UFFS, ProgII, Trabalho">
+    <link rel="shorcut icon" href="assets/img/pizza.svg">
+    <link rel="stylesheet" href="assets/CSS/pedido.css"> 
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+
+<body class="body-class">
+    <header class="header-class">
+        <nav class="top-bar">
+            <ul>
+                <li><a href="index.html"><img src="assets/img/pizza.svg" alt="Pizza em SVG" title="Pizza furada" height="80px"></a></li>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="precos.html">Preços</a></li>
+                <li><a href=""></a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <main>
+        <div id="pedido">
+            <form>
+                <label for="name">Seu nome completo:</label><br>
+                <input type="text" id="name" name="name" ><br>
+    
+                <label for="card">Número do cartão de crádito:</label><br>
+                <input type="number" id="card" name="card" placeholder="0000 0000 0000 0000" pattern="^[0-9]{,3}$"><br>
+                <input type="number" id="card" name="card" placeholder="000" size="10"><br>
+    
+                <label for="pizza">Escolha o sabor da pizza:</label><br>
+                <select id="pizza" name="pizza">
+                    <option value="vasco">Pizza do Vasco</option>
+                    <option value="gaucha">Pizza gaúcha</option>
+                    <option value="carioca">Carioca</option>
+                    <option value="comunista">Pizza comunista</option>
+                </select>
+    
+                <label for="tamanho"></label><br>
+                <select name="tamanho" id="tamanho">
+                    <option value="pequena">Pequena</option>
+                    <option value="media">Média</option>
+                    <option value="grande">Grande</option>
+                </select>
+    
+                <input type="submit" value="Enviar o pedido!">
+            </form>
+        </div>
+    </main>
+    <aside></aside>
+    <footer></footer>
+
+
+</body>
+</html>
