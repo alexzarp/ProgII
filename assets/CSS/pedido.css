@@ -11,6 +11,28 @@
     margin: auto;
     border: 3px solid rgb(32, 128, 184);
     border-radius: 30px;
+    margin-top: 30px;
 }
 
+.lista-sabores {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+}
 
+.sabor {
+    border: teal 5px solid;
+    background-color: rgb(73, 212, 212);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    align-items: center;
+}
+
+.sabor label img {
+    border-radius: 50%;
+}
+
+.footer {
+    margin-top: 25%;
+}

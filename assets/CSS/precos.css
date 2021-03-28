@@ -3,20 +3,28 @@
     border: 0;
     padding: 0;
 }
-
-#top-bar a {
-    text-decoration: none; 
-    color: white;
-    font-size: 40px;
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+    padding: 10px; 
 }
 
-#top-bar ul li {
-    display: inline-block;
+table tr th {
+    background-color: rgb(138, 43, 226);
 }
 
-#tabela {
-    border: 10px;
-    background-color: gray;
-    padding: 7px;
-    margin: 50px;
+tr:nth-child(even){
+	background-color: #b543e2;
+}
+
+tr:nth-child(odd){
+	background-color: rgb(120, 47, 143);
+}
+
+main {
+    margin: 30px;
+}
+
+.footer {
+    margin-top: 25%;
 }

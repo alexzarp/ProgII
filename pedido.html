@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <!--O link para o projeto é https://alexzarp.github.io/ProgII/ -->
 <head>
-    <title>Entre em contato</title>
+    <title>Faça o seu pedido</title>
     <meta charset="utf-8">
     <meta name="author" content="Alex Sandro Zarpelon">
     <meta name="description" content="Trabalho em aula Programação II">
@@ -38,6 +38,7 @@
     
                 <label for="pizza">Escolha o sabor da pizza:</label><br>
                 <select id="pizza" name="pizza">
+                    <option value="">---Selecione---</option>
                     <option value="vasco">Pizza do Vasco</option>
                     <option value="gaucha">Pizza gaúcha</option>
                     <option value="carioca">Carioca</option>
@@ -46,6 +47,7 @@
     
                 <label for="tamanho"></label><br>
                 <select name="tamanho" id="tamanho">
+                    <option value="">---Selecione---</option>
                     <option value="pequena">Pequena</option>
                     <option value="media">Média</option>
                     <option value="grande">Grande</option>
@@ -54,10 +56,53 @@
                 <input type="submit" value="Enviar o pedido!">
             </form>
         </div>
-    </main>
-    <aside></aside>
-    <footer></footer>
 
+        <div class="lista-sabores">
+            <div class="sabor">
+                <label>
+                    <input type="checkbox" name="sabores[]" value="">
+                    <img src="assets/img/vasco.jpg" alt="Pizza vascaina" width="200px">
+                    <p>Pizza do Vasco</p>
+                </label>
+            </div>
+
+            <div class="sabor">
+                <label>
+                    <input type="checkbox" name="sabores[]" value="">
+                    <img src="assets/img/gaucha.png" alt="Pizza vascaina" width="200px">
+                    <p>Pizza Gaúcha</p>
+                </label>
+            </div>
+
+            <div class="sabor">
+                <label>
+                    <input type="checkbox" name="sabores[]" value="">
+                    <img src="assets/img/carioca.jpg" alt="Pizza vascaina" width="200px">
+                    <p>Pizza Carioca</p>
+                </label>
+            </div>
+
+            <div class="sabor">
+                <label>
+                    <input type="checkbox" name="sabores[]" value="">
+                    <img src="assets/img/camunis.jpg" alt="Pizza vascaina" width="200px">
+                    <p>Pizza Comunista</p>
+                </label>
+            </div>
+        </div>
+
+
+    </main>
+    <!--<aside></aside>-->
+    <footer class="footer">
+        <ul>
+            <li><a href="http"><img src="assets/img/discordia.svg" alt="Discord imagem" width="40px"></a></li>
+            <li><a href="http"><img src="assets/img/instagram.svg" alt="instagram" width="40px"></a></li>
+            <li><a href="htpps://twitter.com"><img src="assets/img/twitter.svg" alt="Twitter" width="40px"></a></li>
+        </ul>
+        <h1>(54) 99936-3233</h1>
+        <h1>Vontelte sempre!</h1>
+    </footer>
 
 </body>
 </html>
