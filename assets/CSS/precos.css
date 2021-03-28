@@ -4,12 +4,6 @@
     padding: 0;
 }
 
-#top-bar {
-    background-color: red;
-    text-decoration: none;
-    display: flex;
-}
-
 #top-bar a {
     text-decoration: none; 
     color: white;

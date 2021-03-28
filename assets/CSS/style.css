@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 * {
     margin: 0;
     border: 0;
     padding: 0;
-    font-family: DotGothic16;
 }
 
 .top-bar {
@@ -11,15 +9,63 @@
 }
 .top-bar ul {
     list-style: none;
+    display: flex;
+}
+.top-bar ul li {
+    padding: 0 2vw 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 .top-bar ul li a{
     text-decoration: none;
     color: white;
     font-size: 40px;
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 #img-blur {
     filter: blur(3px);
 }
+main {
+    flex: 1;
+}
+aside {
+    flex: 10vw;
+    background-color: violet;
+    padding: 10px;
+    color: white;
+}
+.em-linha {
+    display: flex;
+    flex-direction: row;
+}
 
+#vasco {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-weight: bolder;
+}
+#vasco p {
+    color: green;
+}
+
+.footer {
+    padding: 10px;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px 0 0;
+}
+footer h1 {
+    background-color: indigo;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+}
