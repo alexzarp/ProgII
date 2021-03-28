@@ -4,27 +4,17 @@
     padding: 0;
 }
 
-#top-bar {
-    background-color: red;
-    text-decoration: none;
-    display: flex;
-}
-
-#top-bar a {
-    text-decoration: none; 
-    color: white;
-    font-size: 40px;
-}
-
-#top-bar ul li {
-    display: inline-block;
-}
-
 .box {
     background-color: gray;
-    margin: 2vh;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box-one {
+    display: flex;
+    justify-content: space-around;
 }
 
-.box ol {
-    margin: 0 0 0 20px;
+ol li {
+    list-style: none;
 }
