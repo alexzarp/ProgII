@@ -4,3 +4,28 @@
     border: 0;
 }
 
+input:focus {
+    background-color: burlywood;
+    padding: 5px;
+    border: 5px solid blue;
+}
+
+form {
+    background-color: cadetblue;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+#map {
+    width: 500px;
+    height: 300px;
+    border: 0;
+}
+#titulo {
+    margin: 0 40% 0 40%;
+    text-align: center;
+    background-color: chartreuse;
+    border-radius: 50px;
+}

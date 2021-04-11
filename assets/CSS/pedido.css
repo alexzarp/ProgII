@@ -6,12 +6,13 @@
 
 #pedido {
     background-color: rgb(183, 160, 204);
-    width: 300px;
-    padding: 1cm;
+    width: 450px;
+    padding: 20px;
     margin: auto;
     border: 3px solid rgb(32, 128, 184);
     border-radius: 30px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .lista-sabores {
@@ -33,6 +34,4 @@
     border-radius: 50%;
 }
 
-.footer {
-    margin-top: 25%;
-}
+

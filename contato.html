@@ -27,7 +27,8 @@
     </header>
 
     <main>
-        <h2>Contato</h2><hr>
+        <br>
+        <h2 id="titulo">Contato</h2>
         <form>
             <div>
                 <label for="name">Nome completo:</label>
@@ -35,7 +36,7 @@
             </div>
 
             <div>
-                <label for="email">E-mail></label>
+                <label for="email">E-mail</label> <br>
                 <input type="email" name="enderecoemail" id="email" placeholder="a@a.com">
             </div>
 
@@ -64,8 +65,9 @@
             <details>
                 <summary>Ver endereço completo</summary>
                 <p>Rua Cão chupando bergamota, n° 225, Itatiba do Sul/RS</p>
-            </details>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3542.838530275887!2d-52.452519124254245!3d-27.380757754807117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x94e3595a9fb65a33%3A0x21db2d28f1c83484!2sItatiba%20do%20Sul%2C%20Rio%20Grande%20do%20Sul!3m2!1d-27.338313!2d-52.4678659!5e0!3m2!1spt-BR!2sbr!4v1616994557154!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </details> <br>
+            <iframe id="map"
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3542.838530275887!2d-52.452519124254245!3d-27.380757754807117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x94e3595a9fb65a33%3A0x21db2d28f1c83484!2sItatiba%20do%20Sul%2C%20Rio%20Grande%20do%20Sul!3m2!1d-27.338313!2d-52.4678659!5e0!3m2!1spt-BR!2sbr!4v1616994557154!5m2!1spt-BR!2sbr" loading="lazy"></iframe>
         </form>
     </main>
 
@@ -78,6 +80,15 @@
         <h1>(54) 99936-3233</h1>
         <h1>Vontelte sempre!</h1>
     </footer>
-
+    <div class="chat" id="chat">
+        
+        <div><!--Não consegui dar a distância vertical entre eles-->
+            <span id="maxChat" onclick="maxChat()">&nbsp;+&nbsp;</span><br>
+            <span id="minChat" onclick="minChat()">&nbsp;&nbsp;-&nbsp;</span><br>
+            <span id="hiddeChat" onclick="hiddeChat()">&nbsp;x&nbsp;</span><br>
+        </div> 
+        <input type="text" id="texto" placeholder="Tire suas dúvidas!">
+    </div>
 </body>
+<script src="assets/js/chatActions.js"></script>
 </html>

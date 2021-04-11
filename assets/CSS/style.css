@@ -2,6 +2,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .top-bar {
@@ -10,12 +11,18 @@
 .top-bar ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .top-bar ul li {
-    padding: 0 2vw 0 0;
+    /* padding: 0 1vw 0 0; */
     display: flex;
-    justify-content: space-between;
 }
+
+.top-bar ul li:last-child {
+    padding: 0 20px 0 0;
+}
+
 .top-bar ul li a{
     text-decoration: none;
     color: white;
@@ -29,6 +36,7 @@
 }
 main {
     flex: 1;
+    min-height: 69vh;
 }
 aside {
     flex: 10vw;
@@ -71,6 +79,34 @@ footer h1 {
 }
 
 input[type=text], input[type=email], input[type=password], input[type=tel],
-input[type=date],textarea, select {
+input[type=date],textarea, select, input[type=submit], input[type=reset] {
 	background-color:lightgray;
+    padding: 5px;
+    margin: 5px;
+    width: 95%;
 }
+
+.chat {
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    bottom: 10px;
+    justify-content: space-between;
+}
+.chat div span {
+    font-size: 25px;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+#maxChat {
+    display: none;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--O link para o projeto é https://alexzarp.github.io/ProgII/ -->
+<head>
+    <title>Pizzaria furos d'água</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Alex Sandro Zarpelon">
+    <meta name="description" content="Trabalho em aula Programação II">
+    <meta name="keywords" content="HTML, UFFS, ProgII, Trabalho">
+    <link rel="shorcut icon" href="assets/img/pizza.svg">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/cadastro.css">
+</head>
+
+<body class="body-class">
+    <header class="header-class">
+        <nav class="top-bar">
+            <ul>
+                <li><a href="index.html"><img src="assets/img/pizza.svg" alt="Pizza em SVG" title="Pizza furada" height="80px"></a></li>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="precos.html">Preços</a></li>
+                <li><a href="pedido.html">Faça seu pedido</a></li>
+                <li><a href="area-cliente.html">Área do cliente</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <main>
+        <form class="conta">
+            <label for="name">Nome completo: <br>
+                <input type="text" name="name" id="name" size="50" maxlength="50"> <br>
+            </label>
+
+            <label for="senha">Sua senha: <br>
+                <input type="password" name="senha" id="senha" size="50" maxlength="50"> <br>
+            </label>
+
+            <label for="re_senha">Sua senha: <br>
+                <input type="password" name="re-senha" id="re-senha" size="50" maxlength="50"> <br>
+            </label>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <ul>
+            <li><a href="http"><img src="assets/img/discordia.svg" alt="Discord imagem" width="40px"></a></li>
+            <li><a href="http"><img src="assets/img/instagram.svg" alt="instagram" width="40px"></a></li>
+            <li><a href="htpps://twitter.com"><img src="assets/img/twitter.svg" alt="Twitter" width="40px"></a></li>
+        </ul>
+        <h1>(54) 99936-3233</h1>
+        <h1>Vontelte sempre!</h1>
+    </footer>
+    <div class="chat" id="chat">
+        
+        <div><!--Não consegui dar a distância vertical entre eles-->
+            <span id="maxChat" onclick="maxChat()">&nbsp;+&nbsp;</span><br>
+            <span id="minChat" onclick="minChat()">&nbsp;&nbsp;-&nbsp;</span><br>
+            <span id="hiddeChat" onclick="hiddeChat()">&nbsp;x&nbsp;</span><br>
+        </div> 
+        <input type="text" id="texto" placeholder="Tire suas dúvidas!">
+    </div>
+</body>
+<script src="assets/js/chatActions.js"></script>
+</html>

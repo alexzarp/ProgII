@@ -32,9 +32,9 @@
                 <label for="name">Seu nome completo:</label><br>
                 <input type="text" id="name" name="name" ><br>
     
-                <label for="card">Número do cartão de crádito:</label><br>
-                <input type="number" id="card" name="card" placeholder="0000 0000 0000 0000" pattern="^[0-9]{,3}$"><br>
-                <input type="number" id="card" name="card" placeholder="000" size="10"><br>
+                <label for="card">Número do cartão de crédito:</label><br>
+                <input type="text" id="card" name="card" placeholder="0000 0000 0000 0000" pattern="^[0-9]{,3}$"><br>
+                <input type="text" id="card" name="card" placeholder="000"><br>
     
                 <label for="pizza">Escolha o sabor da pizza:</label><br>
                 <select id="pizza" name="pizza">
@@ -103,6 +103,15 @@
         <h1>(54) 99936-3233</h1>
         <h1>Vontelte sempre!</h1>
     </footer>
-
+    <div class="chat" id="chat">
+        
+        <div><!--Não consegui dar a distância vertical entre eles-->
+            <span id="maxChat" onclick="maxChat()">&nbsp;+&nbsp;</span><br>
+            <span id="minChat" onclick="minChat()">&nbsp;&nbsp;-&nbsp;</span><br>
+            <span id="hiddeChat" onclick="hiddeChat()">&nbsp;x&nbsp;</span><br>
+        </div> 
+        <input type="text" id="texto" placeholder="Tire suas dúvidas!">
+    </div>
 </body>
+<script src="assets/js/chatActions.js"></script>
 </html>
