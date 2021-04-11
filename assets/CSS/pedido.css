@@ -20,6 +20,10 @@
     grid-template-columns: 25% 25% 25% 25%; 
 }
 
+.sabor label img{
+    width: 200px;
+}
+
 .sabor {
     border: teal 5px solid;
     background-color: rgb(73, 212, 212);
@@ -34,4 +38,14 @@
     border-radius: 50%;
 }
 
-
+@media (max-width: 700px) {
+    #pedido {
+        width: 300px;
+    }
+    .sabor label img{
+        width: 80px;
+    }
+    .lista-sabores {
+        grid-template-columns: 50% 50%; 
+    }
+}
