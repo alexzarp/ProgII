@@ -35,7 +35,7 @@
     
                 <label for="card">Número do cartão de crédito:</label><br>
                 <input type="text" id="card" name="card" placeholder="0000 0000 0000 0000" pattern="^[0-9]{,3}$"><br>
-                <input type="text" id="card" name="card" placeholder="000"><br>
+                <input type="text" id="code" name="card" placeholder="000"><br>
     
                 <label for="pizza">Escolha o sabor da pizza:</label><br>
                 <select id="pizza" name="pizza">
@@ -62,32 +62,32 @@
             <div class="sabor">
                 <label>
                     <input type="checkbox" name="sabores[]" value="">
-                    <img src="assets/img/vasco.jpg" alt="Pizza vascaina">
-                    <p>Pizza do Vasco</p>
+                    <img src="assets/img/vasco.jpg" alt="Pizza vascaina"><br>
+                    <span>Pizza do Vasco</span>
                 </label>
             </div>
 
             <div class="sabor">
                 <label>
                     <input type="checkbox" name="sabores[]" value="">
-                    <img src="assets/img/gaucha.png" alt="Pizza gaucha">
-                    <p>Pizza Gaúcha</p>
+                    <img src="assets/img/gaucha.png" alt="Pizza gaucha"><br>
+                    <span>Pizza Gaúcha</span>
                 </label>
             </div>
 
             <div class="sabor">
                 <label>
                     <input type="checkbox" name="sabores[]" value="">
-                    <img src="assets/img/carioca.jpg" alt="Pizza carioca">
-                    <p>Pizza Carioca</p>
+                    <img src="assets/img/carioca.jpg" alt="Pizza carioca"><br>
+                    <span>Pizza Carioca</span>
                 </label>
             </div>
 
             <div class="sabor">
                 <label>
                     <input type="checkbox" name="sabores[]" value="">
-                    <img src="assets/img/camunis.jpg" alt="Pizza comunista">
-                    <p>Pizza Comunista</p>
+                    <img src="assets/img/camunis.jpg" alt="Pizza comunista"><br>
+                    <span>Pizza Comunista</span>
                 </label>
             </div>
         </div>
@@ -97,13 +97,14 @@
     <!--<aside></aside>-->
     <footer class="footer">
         <ul>
-            <li><a href="http"><img src="assets/img/discordia.svg" alt="Discord imagem" width="40px"></a></li>
-            <li><a href="http"><img src="assets/img/instagram.svg" alt="instagram" width="40px"></a></li>
-            <li><a href="htpps://twitter.com"><img src="assets/img/twitter.svg" alt="Twitter" width="40px"></a></li>
+            <li><a href="http"><img src="assets/img/discordia.svg" alt="Discord imagem"></a></li>
+            <li><a href="http"><img src="assets/img/instagram.svg" alt="instagram"></a></li>
+            <li><a href="htpps://twitter.com"><img src="assets/img/twitter.svg" alt="Twitter"></a></li>
         </ul>
         <h1>(54) 99936-3233</h1>
         <h1>Volte sempre!</h1>
     </footer>
+
     <div class="chat" id="chat">
         
         <div><!--Não consegui dar a distância vertical entre eles-->
@@ -113,6 +114,7 @@
         </div> 
         <input type="text" id="texto" placeholder="Tire suas dúvidas!">
     </div>
+    
+    <script src="assets/js/chatActions.js"></script>
 </body>
-<script src="assets/js/chatActions.js"></script>
 </html>

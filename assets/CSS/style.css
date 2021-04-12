@@ -47,6 +47,13 @@ aside {
     padding: 10px;
     color: white;
 }
+aside div img {
+    width: 100%;
+}
+aside p {
+    font-weight: bold;
+    font-size: 20px;
+}
 .em-linha {
     display: flex;
     flex-direction: row;
@@ -74,6 +81,9 @@ aside {
     list-style: none;
     display: inline;
     margin: 0 10px 0 0;
+}
+.footer ul li a img {
+    width: 40px;
 }
 footer h1 {
     background-color: indigo;

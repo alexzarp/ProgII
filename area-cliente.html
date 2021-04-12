@@ -32,14 +32,15 @@
             <fieldset>
                 <legend>Acesse sua conta</legend>
                 <div>
-                    <label name="id_email">E-mail:</label>
-                    <input type="email" name="field_email" size="30" maxlength="30"
-                    placeholder="Informe o seu e-mail" id="id_email">
+                    <label for="id_email">E-mail: <br>
+                        <input type="email" name="field_email" size="30" maxlength="30"
+                        placeholder="Informe o seu e-mail" id="id_email">
+                    </label>
                 </div><br>
                 <div>
-                    <label for="">
+                    <label for="senha">
                         Senha: <br>
-                        <input type="password" name="field_senha" size="31">
+                        <input type="password" name="field_senha" size="31" id="senha">
                     </label>
                 </div><br>
                 <div>
@@ -53,13 +54,11 @@
         </form>
     </main>
 
-    </section>
-
     <footer class="footer">
         <ul>
-            <li><a href="http"><img src="assets/img/discordia.svg" alt="Discord imagem" width="40px"></a></li>
-            <li><a href="http"><img src="assets/img/instagram.svg" alt="instagram" width="40px"></a></li>
-            <li><a href="htpps://twitter.com"><img src="assets/img/twitter.svg" alt="Twitter" width="40px"></a></li>
+            <li><a href="http"><img src="assets/img/discordia.svg" alt="Discord imagem"></a></li>
+            <li><a href="http"><img src="assets/img/instagram.svg" alt="instagram"></a></li>
+            <li><a href="htpps://twitter.com"><img src="assets/img/twitter.svg" alt="Twitter"></a></li>
         </ul>
         <h1>(54) 99936-3233</h1>
         <h1>Volte sempre!</h1>
@@ -73,6 +72,6 @@
         </div> 
         <input type="text" id="texto" placeholder="Tire suas dúvidas!">
     </div>
+    <script src="assets/js/chatActions.js"></script>
 </body>
-<script src="assets/js/chatActions.js"></script>
 </html>
