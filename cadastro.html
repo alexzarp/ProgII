@@ -33,15 +33,19 @@
                 <input type="text" name="name" id="name" size="50" maxlength="50"> <br>
             </label>
 
+            <label for="email">Email: <br>
+                <input type="text" name="email" id="email" size="50" maxlength="50" placeholder="a@a.com"> <br>
+            </label>
+
             <label for="senha">Sua senha: <br>
                 <input type="password" name="senha" id="senha" size="50" maxlength="50"> <br>
             </label>
 
-            <label for="re-senha">Sua senha: <br>
+            <label for="re-senha">Repita sua senha: <br>
                 <input type="password" name="re-senha" id="re-senha" size="50" maxlength="50"> <br>
             </label>
 
-            <input type="submit" value="Cadastrar" id="cadastre">
+            <input type="submit" onclick="validaFormContato()" value="Cadastrar" id="cadastre">
         </form>
     </main>
 
@@ -63,6 +67,7 @@
         </div> 
         <input type="text" id="texto" placeholder="Tire suas dúvidas!">
     </div>
+    <script src="assets/js/validaSenha.js"></script>
     <script src="assets/js/chatActions.js"></script>
 </body>
 </html>

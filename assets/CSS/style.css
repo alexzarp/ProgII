@@ -42,7 +42,6 @@ main {
     min-height: 69vh;
 }
 aside {
-    flex: 10vw;
     background-color: violet;
     padding: 10px;
     color: white;
@@ -139,32 +138,26 @@ input[type=date],textarea, select, input[type=submit], input[type=reset] {
         width: 20px;
     }
     #img-blur {
-        filter: blur(3px);
+        filter: blur(1px);
+        width: 100%;
     }
     /* ------------------------------------------------ */
-    main {
-        
+    aside p {
+        font-size: 8px;
+    }
+    .vasco h5 {
+        font-size: 6px;
     }
     aside {
-        flex: 10vw;
-        background-color: violet;
-        padding: 10px;
-        color: white;
+        width: 50px;
+        padding: 2px;
     }
-    .em-linha {
-        display: flex;
-        flex-direction: row;
-    }
-    
     .vasco {
-        border-radius: 20px;
+        border-radius: 5px;
         background-color: white;
         color: black;
-        padding: 5px;
+        padding: 1px;
         font-weight: bolder;
-        margin-bottom: 10px;
-    }
-    .vasco p {
-        color: green;
+        margin-bottom: 5px;
     }
 }
